@@ -3,7 +3,7 @@
 ![Avatar](photo_avatar.jpg)
 # Andrei Smolka
 
-* Contacts
+## Contacts
   * Telephone: +375-44-551-25-14
   * E-mail: deadheartedfo@gmail.com
   * GitHub: [github link](https://github.com/Miarur)
