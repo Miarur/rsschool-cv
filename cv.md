@@ -24,11 +24,11 @@
 
 ## Skills
 
-    - HTML 
-    - CSS 
-    - Java Script basics
-    - C# basics
-    - Python basics
-    - Soft skills
-    
+### - HTML 
+### - CSS 
+### - Java Script basics
+### - C# basics
+### - Python basics
+### - Soft skills
+
 ---------------
