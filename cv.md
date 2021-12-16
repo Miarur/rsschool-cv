@@ -1,6 +1,6 @@
 ---
 
-![Avatar](photo_avatar.jpg)
+![Avatar](https://github.com/Miarur/rsschool-cv/blob/ffa0332a25833f69706f188d48d3364df2e080eb/photo_avatar.jpg)
 
 ---
 # Andrei Smolka
@@ -53,3 +53,5 @@
 ## English level 
 
 - A2 
+
+---------------
