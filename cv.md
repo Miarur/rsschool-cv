@@ -42,3 +42,14 @@
 
   ```
 
+  ---------------
+
+## Education 
+  - Self-education
+  - htmlacdemy simulators
+
+---------------
+
+## English level 
+
+- A2 
