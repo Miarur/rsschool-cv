@@ -51,7 +51,7 @@
   - Manager of Sales in Hoster.by (2019 - 2020, 6 month, Belarus, Minsk)
   - Account Manager in Elkodconsult (2018 - 2019, 9 month, Belarus, Minsk)
   - Internship in the company Dolpin Traders ( 2018, 4 month, Ukraine, Kiev)
-  - Сomputer operator in Vitalur(2015 - 2018, 2 years 7 month, Belarus, Minsk)
+  - Сomputer operator in Vitalur (2015 - 2018, 2 years 7 month, Belarus, Minsk)
   - Sales agent in Slavfood (2014 - 2015, 1 year 2 month, Belarus, Minsk)
   
  ---------------
