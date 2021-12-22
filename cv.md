@@ -12,6 +12,7 @@
   * GitHub: [Miarur](https://github.com/Miarur)
   * Telegram: [andr_sm](https://t.me/andr_sm)  
   * Discord: Andrei Smolka(@miarur)
+  * Linkedin: [Andrey Smolko](https://www.linkedin.com/in/andrey-smolko-81904b197/)
 
 ---
 
@@ -44,9 +45,22 @@
 
   ---------------
 
+
+## Work experience
+  - Co-founder ecrabota.by (2020 - 2021, 1 year 3 month, Poland, Warsaw) 
+  - Manager of Sales in Hoster.by (2019 - 2020, 6 month, Belarus, Minsk)
+  - Account Manager in Elkodconsult (2018 - 2019, 9 month, Belarus, Minsk)
+  - Internship in the company Dolpin Traders ( 2018, 4 month, Ukraine, Kiev)
+  - Сomputer operator in Vitalur(2015 - 2018, 2 years 7 month, Belarus, Minsk)
+  - Sales agent in Slavfood (2014 - 2015, 1 year 2 month, Belarus, Minsk)
+  
+ ---------------
+
 ## Education 
   - Self-education
   - htmlacdemy simulators
+  - Belarusian State Economic University
+  - Novogrudok Trade and Economics College
 
 ---------------
 
