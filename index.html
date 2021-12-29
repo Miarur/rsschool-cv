@@ -4,193 +4,227 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrei Smolka</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/drop-down-block.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header-page">
-            <nav class="main-menu">
-                <!-- Добавить  потом лого-->
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">About myself</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Work experience</a></li>
-                <li><a href="#">Education</a></li>
-            </nav>
-        </header>
+    
+    <header class="header-page">
+        <nav class="main-menu">
+            <!-- Добавить  потом лого-->
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">About myself</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Work experience</a></li>
+            <li><a href="#">Education</a></li>
+        </nav>
+    </header>
 
-        <section class="avatar">
-            <img src="assets/img/avatar/photo_avatar.jpg" class="avatar-img"> 
-            <h1>Hi, everyone! My name is Andrei</h1>
-        </section>
+    <div class="wrapper">  
+        <main>  
+
+            <section class="avatar">
+                <img src="assets/img/avatar/photo_avatar.jpg" class="avatar-img"> 
+                <h1>Hi, everyone! My name is Andrei</h1>
+            </section>
 
 
-        <main class="about-me">
-            <h2>About myself</h2>
+            <section class="about-me">
+                <h2>About myself</h2>
 
-            <p class="presentation">
-                I am an interesting, energetic, positive, communicative, responsible, and creative guy. 
-                I know the basics of HTML, CSS, and Java Script. 
-                In my free time, I read popular scientific books, go to the swimming pool, and hope to learn how to play the guitar.
-                Capable of working independently and as a good "team player."For five years, I was the sales manager, and for one year,
-                I had a small project in Poland.But I realized that this one was not for me. Why did I decide to be a programmer? 
-                Because this speciality is closer to me.
-            </p>
+                <p class="presentation">
+                    I am an interesting, energetic, positive, communicative, responsible, and creative guy. 
+                    I know the basics of HTML, CSS, and Java Script. 
+                    In my free time, I read popular scientific books, go to the swimming pool, and hope to learn how to play the guitar.
+                    Capable of working independently and as a good "team player."For five years, I was the sales manager, and for one year,
+                    I had a small project in Poland.But I realized that this one was not for me. Why did I decide to be a programmer? 
+                    Because this speciality is closer to me.
+                </p>
+
+            </section>
+
+            <h2>Work experience</h2>
+
+
+
+            <div class="drop-box">
+                
+                <input id="drop-box-block-1" type ="radio" class="drop-box-block" name="drop-box-down">
+                <label for="drop-box-block-1">Co-founder ecrabota.by</label>
+                <section>
+                    <ul>
+                        <li>August 2020 - October 2021, Warsaw, Poland.
+                            <ul>
+                                <li>- Search for clients and partners.</li>
+                                <li>- Setting up ads in social networks.</li>
+                                <li>- Team management.</li>
+                                <li>- Setting up and working with the crm system.</li>
+                                <li>- Building a sales cycle.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            
+            
+
+            <div class="drop-box">
+                <input class="drop-box-block" type ="radio" id="drop-box-block-2" name="drop-box-down">
+                <label for="drop-box-block-2">Manager of Sales in Hoster.by</label>
+                <section>
+                    <ul>
+                        <li>October 2019 - March 2020, Minsk, Belarus.
+                            <ul>
+                                <li>- Proactive preparation and development of lists of potential customers, analysis of customer needs
+                                    in order to identify suitable scenarios for selling cloud solutions.</li>
+                                <li>- Formation of preliminary and final proposals for cloud solutions for clients.</li>
+                                <li>- Active participation in sales of cloud solutions to potential customers.</li>
+                                <li>- Interaction with divisions of the company to ensure the successful closure of all potential deals.</li>
+                                <li>- Planning and conducting negotiations at the level of top officials of enterprises and IT directors: 
+                                preparation and holding of presentations, preparation of commercial proposals and draft product agreements</li>
+                                <li>- Development of typical scenarios for the use and sales of cloud solutions.</li>
+                                <li>- Speaking at seminars, conferences, round tables, business breakfasts and other marketing events on cloud solutions.</li>
+                                <li>- Participation in trainings and other educational events related to the clouds</li>
+    
+                            </ul>
+                        </li>
+                    </ul>
+                </section> 
+            </div>
+
+            <div class="drop-box">
+                <input class="drop-box-block" type ="radio" id="drop-box-block-3" name="drop-box-down">
+                <label for="drop-box-block-3">Account Manager in ElcodConsult</label>
+                <section>  
+                    <ul>
+                        <li>August 2018 - April 2019, Minsk, Belarus.
+                            <ul>
+                                <li>- Cold sales.</li>
+                                <li>- Incoming applications.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="drop-box">
+                <input class="drop-box-block" type ="radio" id="drop-box-block-4" name="drop-box-down">
+                <label for="drop-box-block-4">Internship in Dolpin Traders</label>
+                <section>
+                    <ul>
+                        <li>April 2018 - July 2018, Kiev, Ukraine.
+                            <ul>
+                                <li>- Technical and fundamental analysis.</li>
+                                <li>- Working with analytical and information systems.</li>
+                                <li>- Compliance with the risk management of the company.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="drop-box">
+                <input class="drop-box-block" type ="radio" id="drop-box-block-5" name="drop-box-down">
+                <label for="drop-box-block-5">Computer's operator in Vitalur</label>
+                <section>
+                    <ul>
+                        <li>October 2015 - April 2018, Minsk, Belarus.
+                            <ul>
+                                <li>- Control of document flow in the store.</li>
+                                <li>- Unsubscribe from goods and materials.</li>
+                                <li>- Equipment control.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        
+            <div class="drop-box">
+                <input class="drop-box-block" type ="radio" id="drop-box-block-6" name="drop-box-down">
+                <label for="drop-box-block-6">Trading agent in SOOO Slavfood</label>
+                <section>  
+                    <ul>
+                        <li>August 2014 - september 2015, Minsk, Belarus.
+                            <ul>
+                                <li>- Work with an existing customer base.</li>
+                                <li>- Search for new clients.</li>
+                                <li>- Participation in company events.</li>
+                                <li>- Control of production terms.</li>
+                                <li>- Conclusion of contracts for products</li>
+                                <li>- Sales promotion.</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </section>
+            </div>
+
+                
+
+            <section class="skills">
+                <h2>Skills</h2>
+
+                <ul>
+                    <li>- HTML</li>
+                    <li>- CSS</li>
+                    <li>- Java Script basics</li>
+                    <li>- C# basics</li>
+                    <li>- Python basics</li>
+                    <li>- Soft skills</li>
+                    <li>- Git</li>
+                </ul>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+
+                <ul>
+                    <li>Belarusian State Economic University, Minsk</li>
+                    <li>Novogrudok Trade and Economics College</li>
+                </ul>
+            </section>
+
+            <section class="code-block">
+                <h2>Code block</h2>
+
+                <pre>
+                    <code>
+                        function multiply(a, b){
+                        return a * b; 
+                        }
+                    </code>
+                </pre>
+            </section>
+
+            <section class="languages">
+                <h2>Languages</h2>
+
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - A2</li>
+                    <li>Polish - A2</li>
+                </ul>
+
+            </section>
+
+
+            <section class="contacts">
+                <h2>Contacts</h2>
+
+                <ul>
+                    <li>Telephone: +375-44-551-25-14</li>
+                    <li>E-mail: deadheartedfo@gmail.com</li>
+                    <li>Telegram: <a href="https://t.me/merry_santaa">merry_santaa</a></li>
+                </ul>
+
+            </section>
 
         </main>
-
-
-        <section class="work-experience">
-            <h2>Work-experience</h2>
-
-            <h3>Co-founder ecrabota.by</h3>
-            <ul>
-                <li>August 2020 - October 2021, Warsaw, Poland.
-                    <ul>
-                        <li>- Search for clients and partners.</li>
-                        <li>- Setting up ads in social networks.</li>
-                        <li>- Team management.</li>
-                        <li>- Setting up and working with the crm system.</li>
-                        <li>- Building a sales cycle.</li>
-                    </ul>
-                </li>
-            </ul>
-
-
-            <h3>Manager of Sales in Hoster.by</h3>
-            <ul>
-                <li>October 2019 - March 2020, Minsk, Belarus.
-                    <ul>
-                        <li>- Proactive preparation and development of lists of potential customers, analysis of customer needs
-                             in order to identify suitable scenarios for selling cloud solutions.</li>
-                        <li>- Formation of preliminary and final proposals for cloud solutions for clients.</li>
-                        <li>- Active participation in sales of cloud solutions to potential customers.</li>
-                        <li>- Interaction with divisions of the company to ensure the successful closure of all potential deals.</li>
-                        <li>- Planning and conducting negotiations at the level of top officials of enterprises and IT directors: 
-                          preparation and holding of presentations, preparation of commercial proposals and draft product agreements</li>
-                        <li>- Development of typical scenarios for the use and sales of cloud solutions.</li>
-                        <li>- Speaking at seminars, conferences, round tables, business breakfasts and other marketing events on cloud solutions.</li>
-                        <li>- Participation in trainings and other educational events related to the clouds</li>
-
-                    </ul>
-                </li>
-            </ul>
-
-
-            <h3>Account Manager in ElcodConsult</h3>
-            <ul>
-                <li>August 2018 - April 2019, Minsk, Belarus.
-                    <ul>
-                        <li>- Cold sales.</li>
-                        <li>- Incoming applications.</li>
-                    
-                    </ul>
-                </li>
-            </ul>
-        
-
-            <h3>Internship in Dolpin Traders</h3>
-            <ul>
-                <li>April 2018 - July 2018, Kiev, Ukraine.
-                    <ul>
-                        <li>- Technical and fundamental analysis.</li>
-                        <li>- Working with analytical and information systems.</li>
-                        <li>- Compliance with the risk management of the company.</li>
-                    </ul>
-                </li>
-            </ul>
-
-
-            <h3>Computer's operator in Vitalur</h3>
-            <ul>
-                <li>October 2015 - April 2018, Minsk, Belarus.
-                    <ul>
-                        <li>- Control of document flow in the store.</li>
-                        <li>- Unsubscribe from goods and materials.</li>
-                        <li>- Equipment control.</li>
-                    </ul>
-                </li>
-            </ul>
-
-
-            <h3>Trading agent in SOOO Slavfood</h3>
-            <ul>
-                <li>August 2014 - september 2015, Minsk, Belarus.
-                    <ul>
-                        <li>- Work with an existing customer base.</li>
-                        <li>- Search for new clients.</li>
-                        <li>- Participation in company events.</li>
-                        <li>- Control of production terms.</li>
-                        <li>- Conclusion of contracts for products</li>
-                        <li>- Sales promotion.</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section class="skills">
-            <h2>Skills</h2>
-
-            <ul>
-                <li>- HTML</li>
-                <li>- CSS</li>
-                <li>- Java Script basics</li>
-                <li>- C# basics</li>
-                <li>- Python basics</li>
-                <li>- Soft skills</li>
-                <li>- Git</li>
-            </ul>
-        </section>
-
-        <section class="education">
-            <h2>Education</h2>
-
-            <ul>
-                <li>Belarusian State Economic University, Minsk</li>
-                <li>Novogrudok Trade and Economics College</li>
-            </ul>
-        </section>
-
-        <section class="code-block">
-            <h2>Code block</h2>
-
-            <pre>
-                <code>
-                    function multiply(a, b){
-                    return a * b; 
-                    }
-                </code>
-            </pre>
-        </section>
-
-        <section class="languages">
-            <h2>Languages</h2>
-
-            <ul>
-                <li>Russian - Native</li>
-                <li>English - A2</li>
-                <li>Polish - A2</li>
-            </ul>
-
-        </section>
-
-
-        <section class="contacts">
-            <h2>Contacts</h2>
-
-            <ul>
-                <li>Telephone: +375-44-551-25-14</li>
-                <li>E-mail: deadheartedfo@gmail.com</li>
-                <li>Telegram: <a href="https://t.me/merry_santaa">merry_santaa</a></li>
-            </ul>
-
-        </section>
-
-        <footer class="footer-page">
-            <a href="https://github.com/Miarur">Git</a>
-        </footer>
-
     </div>
+
+    <footer class="footer-page">
+        <a href="https://github.com/Miarur">Git</a>
+    </footer>
     
    
 </body>
