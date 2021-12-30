@@ -18,7 +18,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-color: rgb(20, 21, 48, 0.9);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7 )), url("/assets/img/images/back.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8 )), url("../assets/img/images/back.jpg");
     background-repeat: repeat;
     background-size: contain;
     color: #f2f2f2;
@@ -33,7 +33,8 @@ body {
 
 .head-two {
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 32px;
+    line-height: 34px;
     padding: 30px 0;
     font-weight: normal;   
 }
@@ -84,6 +85,7 @@ body {
 /*  HEADER  */
 .header-page {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     height: 13vh;
@@ -96,8 +98,10 @@ body {
     display: flex; 
     flex-direction: row;
     justify-content: flex-end;
+    flex-wrap: wrap;
     margin: 20px;
     list-style: none;
+    
 }
 
 .main-menu li {
@@ -196,17 +200,7 @@ body {
 }
 
 
-/* wORK EXPERIENCE */
-
-.drop-box {
-    padding: 0px 20px 0px 20px;
-}
-
-.label-title {
-    font-family:'Roboto', sans-serif;
-    font-size: 22px;
-    color: rgba(255, 255, 255, 0.8);
-}
+/* wORK EXPERIENCE  will find in drop-down-blocks.css */
 
 
 
@@ -215,9 +209,86 @@ body {
     padding: 20px;
 }
 
-.skills ul {
-    list-style: none;
+.skills-block {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    
 }
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.skills-link {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    
+}
+
+.skills-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.skills-link:active {
+    color: rgba(255, 255, 255, 1);
+}
+
+.skills-link:visited {
+    color: rgba(255, 255, 255, 1);
+}
+
+.skills-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: -15px;
+    left: 0px;
+    background-color: rgba(241, 28, 28, 0.8);
+    transform: scaleX(0);
+    transition: 0.2s transform;
+}
+
+.skills-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -15px;
+    left: 0px;
+    background-color: rgba(241, 28, 28, 0.8);
+    transform: scaleX(0);
+    transition: 0.2s transform;
+    
+}
+
+
+.skills-link:hover::after {
+    transform-origin: bottom;
+    transform: scaleY(1);
+    transition: 0.2s transform;
+
+}
+
+.skills-link:hover::before {
+    transform-origin: top;
+    transform: scaleY(1);
+    transition: 0.2s transform;
+}
+
+
 
 
 /* EDUCATION */
