@@ -25,14 +25,16 @@
     height: 50px;
     line-height: 50px;
     padding: 0 40px;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    background: #ecebec;
-    color: #555;
-    font-size: 15px;
+    background: rgb(20, 21, 48,);
     font-weight: bold;
     cursor: pointer;
 }
+
+.drop-box label:hover {
+   color:  rgb(241, 28, 28, 0.8);
+   border-left: 1px solid rgb(241, 28, 28, 0.8);
+}
+
 
 
 .drop-box > label::after {
@@ -42,8 +44,8 @@
     right: 20px;
     width: 12px;
     height: 12px;
-    border-left: 2px solid #555;
-    border-top: 2px solid #555;
+    border-left: 2px solid rgb(241, 28, 28, 0.8);
+    border-top: 2px solid rgb(241, 28, 28, 0.8);
     transform: rotate(-135deg);
     transition: 0.7s transform;
 }
