@@ -107,6 +107,11 @@ body {
     
 }
 
+.main-menu-list {
+    display: flex;
+    list-style: none;
+}
+
 .main-menu li {
     padding: 20px;
 }
