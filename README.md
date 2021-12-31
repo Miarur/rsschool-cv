@@ -1,1 +1,1 @@
-https://miarur.github.io/rsschool-cv/
+https://miarur.github.io/rsschool-cv-html/
