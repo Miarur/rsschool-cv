@@ -16,10 +16,12 @@
         
         <header class="header-page">
             <nav class="main-menu">
-                <li><a class="menu-link" href="#about">About me</a></li>
+                <li><a class="menu-link" href="#about">Summary</a></li>
                 <li><a class="menu-link" href="#work-e">Work experience</a></li>
                 <li><a class="menu-link" href="#skills">Skills</a></li>
                 <li><a class="menu-link" href="#education">Education</a></li>
+                <li><a class="menu-link" href="#code-block">Code</a></li>
+                <li><a class="menu-link" href="#languages">Languages</a></li>
                 <li><a class="menu-link" href="#contacts">Contacts</a></li>
             </nav>
         </header>
@@ -194,54 +196,45 @@
             <section class="education" id="education">
                 <h2 class="head-two"><a class="body-links" href="#">Education</a></h2>
 
-                <table>
-
-                    <tr>
+                <table class="table-edu">
+                    <tr class="table-string">
                         <td>2021 - now</td>
                         <td>In progress</td>
                         <td>The Rolling Scopes School</td>
                         <td>Javascript stage#0 </td>
                     </tr>
-
-                    <tr>
+                    <tr class="table-string">
                         <td>2014 - 2017</td>
                         <td>Unfinished bachelor's degree</td>
                         <td>Belarusian State Economic University, Minsk</td>
-                        <td>Economic</td>
+                        <td>Economist</td>
 
                     </tr>
-
-                    <tr>
+                    <tr class="table-string">
                         <td>2011 - 2014</td>
                         <td>Specialized secondary</td>
                         <td>Novogrudok Trade and Economics College</td>
                         <td>Economist</td>
                     </tr>
-
-                    
-
-
-                </table>
-
-            
+                </table>   
             </section>
 
 
-            <section class="code-block">
+            <section class="code-block" id="code-block">
                 <h2 class="head-two"><a class="body-links" href="#">Code block</a></h2>
-                <pre>
+                <pre class="code-pre">
                     <code>
-                        function multiply(a, b){
-                        return a * b; 
+                        <span class="code-span-1">function</span> <span class="code-span-2">multiply(a, b)</span>{
+                        <span class="code-span-1">return a * b; </span>
                         }
                     </code>
                 </pre>
             </section>
 
 
-            <section class="languages">
+            <section class="languages" id="languages">
                 <h2 class="head-two"><a class="body-links" href="#">Languages</a></h2>
-                <ul>
+                <ul class="lang-list">
                     <li>Russian - Native</li>
                     <li>English - A2</li>
                     <li>Polish - A2</li>
@@ -253,12 +246,13 @@
             <section class="contacts" id="contacts">
                 <h2 class="head-two"><a class="body-links" href="#">Contacts</a></h2>
 
-                <ul>
-                    <li>Telephone: +375-44-551-25-14</li>
-                    <li>E-mail: deadheartedfo@gmail.com</li>
-                    <li>Telegram: <a href="https://t.me/merry_santaa">merry_santaa</a></li>
+                <ul class="contacts-list">
+                    <li><a href="tel:+375445512514" class="contact-link"><div class="contacts-icon"><img src="./assets/img/icons/phone.svg"></div>Telephone: +375-44-551-25-14</a></li>
+                    <li><a href="mailto:deadheartedfo@gmail.com" class="contact-link"><div class="contacts-icon"><img src="./assets/img/icons/gmail.svg"></div>E-mail: deadheartedfo@gmail.com</a></li>
+                    <li><a href="https://t.me/merry_santaa" class="contact-link"><div class="contacts-icon"><img src="./assets/img/icons/telegram.svg"></div>Telegram</a></li> 
+                    <li><a href="https://www.linkedin.com/in/andrey-smolko-81904b197/" class="contact-link"><div class="contacts-icon"><img src="./assets/img/icons/linkedin.svg"></div>Linkedin</a></li>
+                    <li><a href="https://github.com/Miarur" class="contact-link"><div class="contacts-icon"><img src="./assets/img/icons/github.svg"></div>GitHub</a></li>
                 </ul>
-
             </section>
         </main>
 
@@ -266,7 +260,24 @@
     </div>
 
     <footer class="footer-page">
-        <a href="https://github.com/Miarur">Git</a>
+
+        <div class="copyright">
+            <p>2021 Andrei Smolka</p>
+
+        </div>
+
+        <div class="social">
+            <div class="social-github">
+                <a href="https://github.com/Miarur"><img src="/assets/img/icons/github.svg"></a>
+            </div>
+        </div>
+
+
+        <div class="footer-logo-school">
+            <a href="https://rs.school/js/" class="footer-link"><img src="/assets/img/logos/rs_school_js.svg" alt="footer-logo-school"></a>
+        </div>
+
+        
     </footer>
     
    

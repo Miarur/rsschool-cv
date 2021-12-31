@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-image: linear-gradient(rgba(20, 21, 48, 0.8), rgba(39, 5, 5, 0.8));
 }
 
 body {
@@ -15,10 +16,11 @@ body {
     justify-content: space-between;
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: rgb(20, 21, 48, 0.9);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8 )), url("../assets/img/images/back.jpg");
+    background-color: rgba(20, 21, 48, 0.6);
+    background-image: linear-gradient(rgba(20, 21, 48, 0.8), rgba(39, 5, 5, 0.8));
     background-repeat: repeat;
     background-size: contain;
     color: #f2f2f2;
@@ -32,10 +34,11 @@ body {
 }
 
 .head-two {
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
     line-height: 34px;
     padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-align: center;
     font-weight: normal;   
 }
 
@@ -212,7 +215,7 @@ body {
 .skills-block {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 30px auto 30px auto;
     padding: 10px;
     
 }
@@ -296,15 +299,43 @@ body {
     padding: 20px;
 }
 
-.education ul {
-    list-style: none;
+.table-edu {
+    margin: 30px auto 30px auto;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
+.table-string {
+    text-align: left;
+    padding: 20px;
+}
+
+
+.table-edu td {
+    padding: 20px;
+    border-bottom: 2px solid rgba(241, 28, 28, 0.8);
+}
 
 
 /* CODE BLOCK */
 .code-block {
     padding: 20px;
+}
+
+.code-pre {
+    margin: 0px;
+}
+
+.code-span-1 {
+    color: rgba(255, 255, 255, o.7);
+}
+
+.code-span-2 {
+    color: rgba(241, 28, 28, 0.9);
 }
 
 
@@ -314,25 +345,138 @@ body {
     padding: 20px;
 }
 
-.languages ul {
+.lang-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 20px 20px 20px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 30px;
     list-style: none;
+}
+
+.lang-list li {
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
 /* CONTACTS */
+
 .contacts {
-    text-align: center;
-    padding: 10px;
+    padding: 20px;
+    
     
 }
 
-.contacts ul {
+
+
+.contacts-list {
+    position: relative;
     list-style: none;
+    margin: 30px 0px 30px 0px;
+   
 }
+
+.contacts-list li {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px 40px 10px 40px;
+    
+    
+}
+
+.contact-link {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-link:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-link:active {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-link:visited {
+    color: rgba(241, 28, 28, 0.7);
+}
+
+.contact-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: -7px;
+    background-color: rgba(241, 28, 28, 0.7);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.8s transform;
+    
+}
+
+.contact-link:hover::after {
+    transform: scaleX(1);
+    transition: 0.8s transform;
+}
+
+.contacts-icon img {
+    position: absolute;
+    left: -50px;
+    top: 0px;
+    width: 35px;
+    height: 35px;
+
+}
+
+
 
 /* FOOTER */
 .footer-page {
-    background-color: rgb(20, 21, 48, 0.9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
     width: auto;
-    height: 15vh;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    
 }
+
+
+
+.footer-logo-school img {
+    width: 150px;
+    height: 150px;     
+}
+
+
+.footer-link {
+    
+    text-align: right;
+    text-decoration: none;
+}
+
+.social-github img {
+    
+
+}
+
+/*
+.footer-logo-school {
+    margin: 40px 20px 40px 20px;
+}
+/*
