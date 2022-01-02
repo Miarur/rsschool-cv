@@ -53,12 +53,10 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
+    min-width: 300px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-color: rgba(20, 21, 48, 0.6);
@@ -152,15 +150,12 @@ body {
     display: flex; 
     flex-direction: row;
     justify-content: flex-end;
-    
     margin: 20px;
     list-style: none;
-    
 }
 
 .main-menu-list {
     display: flex;
-
     list-style: none;
 }
 
@@ -248,7 +243,7 @@ body {
     margin: 40px auto;
     text-align: center;
     font-family:'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 35px;
     color: rgba(255, 255, 255, 0.9);
 }
