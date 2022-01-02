@@ -91,7 +91,7 @@
 
 
 .drop-box:first-of-type > .drop-box-block:checked ~ section {
-    height: 500px;
+    height: 700px;
 }
 
 .drop-box:nth-of-type(2) > .drop-box-block:checked ~ section {
@@ -99,7 +99,7 @@
 }
 
 .drop-box:nth-of-type(3) > .drop-box-block:checked ~ section {
-    height: 500px;
+    height: 700px;
 }
 
 .drop-box:nth-of-type(4) > .drop-box-block:checked ~ section {
