@@ -71,9 +71,7 @@ body {
     padding: 30px 0px 50px 0px;
     font-size: 54px;
     font-weight: bold;
-    justify-content: center;
-    align-items: end;
-    text-align: center;  
+     
 }
 
 .head-two {
@@ -205,18 +203,23 @@ body {
 .container-avatar {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center; 
     margin: 0px;
     padding: 0px;
+    
 }
 
 .header-title{
-    align-content: center;
-    margin-bottom: 40px;
+    margin: 40px auto 40px auto;
+    padding: 10px;
+    text-align: center;
+    
 }
 
 .header-span {
     color: rgb(241, 28, 28, 0.8);
+    
 }
 
 
@@ -225,6 +228,7 @@ body {
     margin-bottom: 50px;
     padding: 20px;
     text-align: right;
+    
 }
 
 .avatar-img {
@@ -241,6 +245,7 @@ body {
     margin-top: 50px;
     margin-bottom: 60px;
     padding: 0px 20px 0px 20px;
+    
 }
 
 .about-me p{
@@ -251,6 +256,7 @@ body {
     font-size: 24px;
     line-height: 35px;
     color: rgba(255, 255, 255, 0.9);
+    
 }
 
 
@@ -262,6 +268,7 @@ body {
 .skills {
     margin: 0px;
     padding: 0px;
+    
     
 }
 
@@ -352,8 +359,12 @@ body {
 
 /* EDUCATION */
 .education {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
+    border: 1px solid white;
 }
 
 .table-edu {
@@ -364,6 +375,7 @@ body {
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
+    
 }
 
 .table-string {
