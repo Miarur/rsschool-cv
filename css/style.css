@@ -56,7 +56,7 @@ body {
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
-    min-width: 300px;
+    
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-color: rgba(20, 21, 48, 0.6);
@@ -124,6 +124,7 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 1440px;
+    
 }
 
 
@@ -137,30 +138,33 @@ body {
 /*  HEADER  */
 .header-page {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: end;
-    height: 13vh;
     background-color: rgb(20, 21, 48, 0);
-    
     
 }
 
 .main-menu {
     display: flex; 
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-end;
     margin: 20px;
     list-style: none;
+    
 }
 
 .main-menu-list {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    
 }
 
 .main-menu li {
     padding: 20px;
+    
 }
 
 .main-menu .menu-link {
@@ -171,6 +175,7 @@ body {
     font-size: 20px;
     color: #f2f2f2;
     text-decoration: none;
+    
 }
 
 .menu-link:hover::before {
