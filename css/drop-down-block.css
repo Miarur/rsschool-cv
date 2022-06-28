@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+.drop-box {
+    margin: 0 auto;
+    max-width: 1440px;
+    transform: translateZ(0); 
+    background: rgb(20, 21, 48,);
+    padding: 0px;
+    margin: 0px;
+}
+
+.drop-box .head-two {
+    margin-bottom: 50px;
+}
+
+.drop-box > .label-title {
+    display: block;
+    position: relative;
+    padding: 30px auto 30px auto;
+    margin: 0px;
+    height: 50px;
+    background: rgb(20, 21, 48,);
+    cursor: pointer;
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.9);
+    
+}
+
+
+
+.drop-box > .drop-box-block {
+    display: none;
+    position: absolute;
+    opacity: 0;
+       
+}
+
+
+.drop-list {
+    
+    margin: 10px;
+    line-height: 20px;
+    padding: 10px 0px 10px 150px;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgba(241, 28, 28, 1);
+    list-style: none;
+}
+
+.drop-list-2 {
+    padding: 20px 0px 0px 40px ;
+    line-height: 35px;
+    font-family:'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    list-style: none;
+}
+
+.drop-box label:hover {
+   color:  rgb(241, 28, 28, 0.8);
+   
+}
+
+.drop-box > .label-title::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid rgba(241, 28, 28, 0.9);
+    border-top: 2px solid rgba(241, 28, 28, 0.9);
+    transform: rotate(-135deg);
+    transition: 0.7s transform;
+}
+
+
+
+.drop-box > section {
+    overflow: hidden;
+    height: 0;
+    transition: all .9s;
+    
+}
+
+
+.drop-box > .drop-box-block:checked ~ .label-title::after {
+    transform: rotate(45deg);
+    top: 16px;
+}
+
+
+
+.drop-box:first-of-type > .drop-box-block:checked ~ section {
+    height: 700px;
+}
+
+.drop-box:nth-of-type(2) > .drop-box-block:checked ~ section {
+    height: 300px;
+}
+
+.drop-box:nth-of-type(3) > .drop-box-block:checked ~ section {
+    height: 500px;
+}
+
+.drop-box:nth-of-type(4) > .drop-box-block:checked ~ section {
+    height: 200px;
+}
+
+.drop-box:nth-of-type(5) > .drop-box-block:checked ~ section {
+    height: 250px;
+}
+
+.drop-box:nth-of-type(6) > .drop-box-block:checked ~ section {
+    height: 250px;
+}
+
+.drop-box:nth-of-type(7) > .drop-box-block:checked ~ section {
+    height: 200px;
+}
